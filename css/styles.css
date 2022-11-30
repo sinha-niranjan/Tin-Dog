@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    padding: 3% 10%;
+    color: #fff;
+}
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.dropdown-item {
+    background-color: #ff4c68;
+}
+
+/* Navigation bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-buutton {
+    margin: 5% 3%;
+}
+
+/*Title Image */
+
+.title-img {
+    width: 25%;
+
+    transform: rotate(25deg);
+    position: absolute;
+    padding-left: 5%;
+
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /*z-index: 1;*/
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icon {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+p {
+    color: grey;
+}
+
+/*testomonial section */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 7% 15%;
+    font-family: " Montserrat-bold";
+}
+
+.corousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 15px 15px 20px;
+}
+
+
+/*Pricing section*/
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width : 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        width: 55%;
+        position: static;
+        transform: rotate(0);
+
+    }
+
+    #features {
+        position: static;
+    }
+}
+
+/*  call to action  */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 25%;
+}
+
+.action-text {
+    font-family: Montserrat-Black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+
+}
+
+/*  footer */
+.fa {
+    padding: 0% 1%;
+}
+
+#footer {
+    text-align: center;
+    margin: 7% 15%;
+}
